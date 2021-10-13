@@ -23,7 +23,7 @@ class MainActivity:AppCompatActivity() {
                 gravity = Gravity.CENTER
             }
 
-            addView(mTextView ,NZLayout.Frame.fullScreen())
+            addView(mTextView,NZLayout.Frame.fullScreen())
 
         }
 
