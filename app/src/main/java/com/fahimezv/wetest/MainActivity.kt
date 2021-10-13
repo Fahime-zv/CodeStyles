@@ -1,11 +1,11 @@
 package com.fahimezv.wetest
 
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.widget.FrameLayout
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity:AppCompatActivity() {
     //UI
@@ -23,7 +23,7 @@ class MainActivity:AppCompatActivity() {
                 gravity = Gravity.CENTER
             }
 
-            addView(mTextView,NZLayout.Frame.fullScreen())
+            addView(mTextView ,NZLayout.Frame.fullScreen())
 
         }
 
